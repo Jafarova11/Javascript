@@ -1,0 +1,86 @@
+.main-section {
+  padding: $container-padding;
+  .row {
+    padding: $container-padding;
+    row-gap: $row-gap;
+
+    .mobile {
+      display: none;
+    }
+
+    .col-12 {
+      position: relative;
+
+      p {
+        color: white;
+        position: absolute;
+        font-size: 36px;
+        font-weight: 100;
+        width: 160px;
+        cursor: pointer;
+        bottom: 10px;
+        left: 30px;
+      }
+    }
+  }
+
+  .top {
+    p {
+      font-size: 48px;
+      font-weight: 200;
+    }
+
+    button {
+      border: $btn-border;
+      background-color: $btn-background-color;
+      letter-spacing: $btn-letter-spacing;
+      padding: $btn-padding;
+      font-weight: $btn-font-weight;
+    }
+  }
+
+  .container {
+    #btn {
+      border: $btn-border;
+      background-color: $btn-background-color;
+      letter-spacing: $btn-letter-spacing;
+      padding: 2% 4%;
+      margin: $btn-margin;
+      font-weight: $btn-font-weight;
+      display: none;
+    }
+  }
+
+  .col-12:hover {
+    opacity: 0.5;
+    cursor: pointer;
+  }
+
+  @media only screen and (max-width: 992px) {
+    .row {
+      .mobile {
+        display: inline-block;
+        gap: 10px;
+        width: 300px;
+      }
+
+      .col-12 p {
+        font-size: 24px;
+      }
+    }
+
+    .container #btn {
+      display: inline-block;
+    }
+
+    .top button {
+      display: none;
+    }
+    .top p {
+      font-size: 36px;
+    }
+    .row .desktop {
+      display: none;
+    }
+  }
+}
