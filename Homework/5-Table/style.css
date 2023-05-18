@@ -1,0 +1,36 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 20px;
+  row-gap: 20px;
+}
+input {
+  width: 900px;
+  padding: 8px 5px;
+}
+table,
+th,
+td {
+  border: 1px solid rgb(215, 214, 214);
+  border-spacing: 0;
+  text-align: center;
+  width: 900px;
+}
+th,
+td {
+  padding: 10px 0;
+}
+thead th .fa-arrow-up {
+  display: none;
+}
+thead #nameid .fa-arrow-down {
+  display: none;
+}
