@@ -1,0 +1,28 @@
+button {
+  padding: 4px 25px;
+  color: white;
+  border: transparent;
+}
+.number {
+  color: blue;
+}
+.startbtn {
+  background-color: green;
+}
+.stopbtn {
+  background-color: red;
+}
+.samecolor {
+  background-color: rgb(78, 141, 138);
+}
+.resetbtn {
+  background-color: orangered;
+  color: black;
+}
+input {
+  border: 1px solid rgb(212, 1, 1);
+}
+.incrementbyx {
+  color: black;
+  background-color: bisque;
+}
