@@ -1,0 +1,47 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-weight: bold;
+}
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container {
+  max-width: 500px;
+  background-color: bisque;
+  padding: 3% 2%;
+  border-radius: 8px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  row-gap: 15px;
+}
+input,
+button {
+  padding: 5px;
+}
+p {
+  background-color: black;
+  border: transparent;
+  border-radius: 6px;
+  color: white;
+  text-align: right;
+  padding: 5px;
+}
+.valueinput {
+  display: flex;
+  column-gap: 3px;
+}
+.value1::-webkit-inner-spin-button,
+.value2::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+}
+.reset {
+  background-color: rgb(242, 115, 69);
+  border: 2px solid black;
+}
