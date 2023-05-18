@@ -1,0 +1,14 @@
+#form {
+  border: 2px dashed black;
+  #loginform {
+    height: 95vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 10px;
+    #check {
+      visibility: hidden;
+    }
+  }
+}

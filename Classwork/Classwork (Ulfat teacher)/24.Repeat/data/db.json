@@ -1,0 +1,20 @@
+{
+  "users": [
+    {
+      "photo": "./images/undefined",
+      "name": "Şəhanə",
+      "surname": "Cəfərova",
+      "email": "shncfrv.2001@gmail.com",
+      "date": "5/17/2023, 9:25:17 PM",
+      "id": 1
+    },
+    {
+      "photo": "./images/undefined",
+      "name": "Şəhanə",
+      "surname": "Cəfərova",
+      "email": "shncfrv.2001@gmail.com",
+      "date": "5/17/2023, 9:25:54 PM",
+      "id": 2
+    }
+  ]
+}
