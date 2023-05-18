@@ -1,0 +1,10 @@
+{
+  "blogs": [
+    {
+      "id": 1,
+      "author": "Jafarova",
+      "content": "Lorem Ipsum",
+      "title": "Dolor"
+    }
+  ]
+}

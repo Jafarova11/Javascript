@@ -1,0 +1,88 @@
+* {
+  text-decoration: none;
+}
+* body.darkmode header {
+  background-color: #2b3844;
+  border-bottom: none;
+}
+* body.darkmode header h2,
+* body.darkmode header p,
+* body.darkmode header i {
+  color: white;
+}
+* body.darkmode .mainpage {
+  background-color: #202c36;
+}
+* body.darkmode .mainpage input {
+  background-color: #2b3844;
+}
+* body.darkmode .mainpage .card {
+  background-color: #2b3844;
+}
+* body.darkmode .mainpage select {
+  background-color: #2b3844;
+}
+* body.darkmode .mainpage option,
+* body.darkmode .mainpage select,
+* body.darkmode .mainpage h4,
+* body.darkmode .mainpage h6 {
+  color: white;
+}
+* body.darkmode .hero-banner {
+  background-color: #202c36;
+}
+* body.darkmode .hero-banner i,
+* body.darkmode .hero-banner p,
+* body.darkmode .hero-banner h3,
+* body.darkmode .hero-banner h5 {
+  color: white;
+}
+* body.darkmode .hero-banner .detail-card {
+  background-color: #202c36;
+}
+* body header {
+  padding: 1% 0;
+  border-bottom: 2px solid rgb(227, 227, 227);
+}
+* body header .container nav {
+  display: flex;
+  align-items: center;
+}
+* body header .container nav .darkMode {
+  cursor: pointer;
+}
+* body header .container nav .darkMode i {
+  margin-top: 6px;
+}
+* body section {
+  background-color: rgb(249, 249, 249);
+}
+* body section .container .hero-banner-top {
+  padding: 3% 0;
+}
+* body section .container .hero-banner-top div {
+  position: relative;
+}
+* body section .container .hero-banner-top div input {
+  outline: none;
+  padding: 8% 40%;
+  border: none;
+}
+* body section .container .hero-banner-top div i {
+  position: absolute;
+  top: 32%;
+  left: 5%;
+}
+* body section .container .hero-banner-top select {
+  border: none;
+  padding: 1% 3%;
+  border-radius: 5px;
+  outline: none;
+}
+* body section .container .row {
+  row-gap: 30px;
+  flex-wrap: wrap;
+}
+* body section .container .row a {
+  text-decoration: none;
+}/*# sourceMappingURL=main.css.map */
